@@ -1,0 +1,5 @@
+services:
+  jsonapi_always_vary_origin:
+    class: '\Drupal\jsonapi_always_vary_origin\EventSubscriber\AlwaysAddVaryOriginEventSubscriber'
+    tags:
+      - { name: 'event_subscriber' }
